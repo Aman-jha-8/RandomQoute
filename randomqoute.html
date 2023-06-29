@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Quote Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <style src="style.css">
+        body {
+	font-family: Arial, sans-serif;
+	background-color: #510ea4;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#quote-selector {
+	margin: 20px 0;
+	padding: 10px;
+	font-size: 16px;
+}
+
+#generate-button {
+	padding: 10px;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#generate-button:hover {
+	background-color: #3e8e41;
+}
+
+#quote-container {
+	margin-top: 50px;
+	padding: 20px;
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+    </style>
+</head>
+<body>
+	<h1>Random Quote Generator</h1>
+
+    <label for="quote-selector">Select a person:</label>
+    <select id="quote-selector">
+      <option value="Mike Tyson">Mike Tyson</option>
+      <option value="Muhammad Ali">Muhammad Ali</option>
+      <option value="Bill Gates">Bill Gates</option>
+      <option value="Arnold">Arnold Schwarzenegger</option>
+      <option value="Sportsman">Sportsman</option>
+      <option value="Scientist">Scientist</option>
+      <option value="Buddha">Buddha</option>
+    </select>
+
+    <button id="generate-button">Generate</button>
+
+    <div id="quote-container"></div>
+	<script src="script.js">
+    </script>
+</body>
+</html>
